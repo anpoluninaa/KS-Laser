@@ -41,12 +41,12 @@ body {
 
     height: 100%;
     width: 100%;
-    background-color: #185066;
+    background-color: rgb(9, 157, 179);;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .container {
@@ -57,9 +57,6 @@ body {
 
 .header {
     position: relative;
-    align-items: center; 
-    margin-top: 40px;
-    margin-bottom: 48px;
 }
 
 .header::after {
@@ -76,6 +73,11 @@ body {
 }
 
 
+.header {
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+
 .header__container {
     display: flex;
     justify-content: center;
@@ -88,7 +90,7 @@ body {
 
 .special-offers__container {
     border-radius: 16px;
-    background: #FFFFFF;
+    background: rgba(255, 255, 255, 0.84);
     width: 342px;
     padding: 36px 19px 36px 20px;
 
@@ -96,8 +98,8 @@ body {
 }
 
 .special-offers__title {
-    border-radius: 22px;
-    background: #9A0602;
+    border-radius: 5px;
+    background: rgb(9, 157, 179);
 
     font-weight: 700;
     line-height: 128%;
@@ -129,33 +131,8 @@ body {
 
 .special-offers__text {
     color: #2E363E;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: -1px;
-
-    margin-bottom: 28px;
-}
-.special-offers__text_1 {
-    color: #2E363E;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: -1px;
-    margin-bottom: 15px;
-}
-.special-offers__text_2 {
-    color: #2E363E;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: -1px;
-    margin-bottom: 2px;
-}
-.special-offers__text_3 {
-    color: #2E363E;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
     line-height: 29px;
     letter-spacing: -1px;
 
@@ -163,9 +140,9 @@ body {
 }
 
 .special-offers__btn {
-    border-radius: 22px;
-    background: #9A0602;
-    padding: 8px 50px;
+    border-radius: 8px;
+    background: rgb(9, 157, 179);
+    padding: 16px 50px;
 
     font-size: 13px;
     line-height: 152%;
@@ -201,7 +178,7 @@ body {
     position: absolute;
     background-image: url(../images/address.svg);
     width: 16px;
-    height: 17px;
+    height: 16px;
     left: 40px;
 }
 
@@ -217,8 +194,8 @@ body {
     background-image: url(../images/phone.svg);
     width: 16px;
     height: 16px;
-    left: 125px;
-    
+    left: 80px;
+    bottom: 20px;
 }
 
 .footer__item:not(:last-child) {
